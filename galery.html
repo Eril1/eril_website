@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Sekolah </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('img/bbbbh.jpg'); /* Ganti dengan URL gambar latar belakang */
+            background-size: cover;
+            background-position: center;
+            color: rgb(249, 249, 239);
+        }
+        header {
+            background: rgb(8, 40, 220); /* Warna hijau dengan transparansi */
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            background: rgba(9, 9, 179, 0.981); /* Latar belakang putih dengan transparansi */
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgb(231, 231, 6);
+            padding: 20px;
+        }
+        h2 {
+            color: #e8ff18fc;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #051d06;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Menampilkan Kegiatan dan Prestasi Siswa</h1>
+</header>
+
+<div class="container">
+    <h1>Galeri Foto</h1>
+    <div class="gallery">
+        <img src="img/silat.jfif" alt="potret juara silat">
+        <img src="img/paskibra.jfif" alt="kegiatan paskibra">
+        <img src="img/voly.jfif" alt="bola voly putra">
+        <img src="img/bulu tangkis.jfif" alt="gambar perwakilan bulu tangkis">
+        <img src="img/osis.jfif" alt="kegiatan osis">
+        <img src="img/lingkungan.jfif" alt="lingkungan sekola">
+        <img src="img/ruangan.jfif" alt="ruangan kelas">
+        <img src="img/berkumpul.jfif" alt="berkumpul siswa siswi">
+    </div>
+    
+</div>
+
+<footer>
+  
+    <div class="back-to-menu">
+        <a href="beranda.html" class="button">KEMBALI KE MENU</a>
+    </div>
+</footer>
+
+</body>
+</html>
